@@ -1,0 +1,119 @@
+html, body {
+    margin:10px;
+    padding:0px;
+    background-color:darkslategrey;
+    }
+    #centrato {
+    height:auto;
+    width:1000px;
+    margin-left:auto;
+    margin-right:auto;
+    }
+    #header {
+    position:relative;
+    background-color:#222222;
+    height:150px;
+    width:100%;
+    }
+    #primaColonna {
+    background-color:#333333;
+    float:left;
+    height:450px;
+    width:20%;
+    }
+    #menuVerticale ul {
+    margin:0px;
+    padding:0px;
+    list-style-type:none;
+    }
+    #menuVerticale ul a:link, ul a:visited{
+    display:block;
+    padding:10px;
+    text-decoration:none;
+    text-transform:uppercase;
+    }
+    #menuOr {
+    position:absolute;
+    bottom:0px;
+    width:100%;
+    color: rgb(0, 195, 255);
+    text-align:center;
+    background-color:#666;
+    }
+    #menuOr ul {
+    margin:0px;
+    padding:0px;
+    overflow:hidden;
+    list-style-type:none;
+    }
+    
+    #menuOr ul a:link , ul a:visited{
+    display:block;
+    padding:10px;
+    text-decoration:none;
+    color:white;
+    text-transform:uppercase;
+    }
+    #menuOr ul a:hover {
+    background-color:grey;
+    }
+    #menuOr ul li{
+    float:left;
+    width:120px;
+    }
+    #secondaColonna {
+    background-color:#444444;
+    float:left;
+    height:450px;
+    width:80%;
+    }
+    #footer {
+    background-color:#555555;
+    clear:left;
+    height:50px;
+    width:100%;
+    }
+    #foto_giuseppe 
+    { 
+        display: block;
+        margin: 0px auto;
+        text-align:center;
+        width: 450px;
+        height: 350px;
+    }
+    #chi-sono   {
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color:white;
+        text-align:center;
+    }
+    #nuoto {
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color:white;
+        text-align:center;
+    }
+    #scuola  {
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color:white;
+        text-align:center;
+    }
+    #Roma   {
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color:white;
+        text-align:center;
+    }
+    #foto_ranidae
+    { 
+        display: block;
+        margin: 0px auto;
+        text-align:center;
+        width: 450px;
+        height: 350px;
+    }
+    #foto_roma
+    { 
+        display: block;
+        margin: 0px auto;
+        text-align:center;
+        width: 450px;
+        height: 350px;
+    }
