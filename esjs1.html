@@ -3,19 +3,14 @@
     <head> 
         <title> Calcolatrice </title> 
         <style type="text/css">
-            h1{
-                padding-left: 100px;
-            }
-            form {
-                border-style: solid;
-                border-color: black;
-                padding: 5px;
-                width: 20%;
-                text-align: center;
-            }
+        form {
+            border-style:solid;
+            border-color:blue;
+            width:20%;
+        }
         </style>
         <script type="text/javascript"> 
-            function funzioneProdotto(){
+            function funzioneprodotto(){
                 var numero1=document.forms["due_numeri"]["n1"].value;
                 var numero2=document.forms["due_numeri"]["n2"].value;
                 risultato=numero1*numero2;
@@ -28,7 +23,7 @@
         <form name="due_numeri">
             <label> primo numero </label> <input type="number" name="n1"> <br><br>
             <label> secondo numero </label> <input type="number" name="n2"> <br><br>
-            <input type="button" value="calcola!" onclick="funzioneProdotto()">
+            <input type="button" value="calcola!" onclick="funzioneprodotto()">
         </form> 
     </body>
 </html>
