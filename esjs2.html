@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<title> es2js </title> <link rel="stylesheet" href="css/stili.css" type="text/css"/>
+<script type="text/javascript">
+function stampaNumero(){
+var numero;
+for (var i=0; i<10; i++){
+numero= i+1;
+window.alert("Risultato: " + numero);
+}
+}
+function stampaNumero1(){
+var numero;
+for (var i=1; i<=10; i++){
+numero= Math.pow(i, 2);
+window.alert(i + " al quadrato: " + numero);
+}
+}
+</script>
+</head>
+<body>
+<div class="div">
+<form name="">
+    <input type="button" value="Stampa i 10 numeri" onclick="stampaNumero()"> <br><br>
+    <input type="button" value="Stampa quadrato dei 10 numeri" onclick="stampaNumero1()"> <br><br>
+</form>
+</br> <a href="index5.html"> Indietro </a>
+</div>
+</body>
+</html>
