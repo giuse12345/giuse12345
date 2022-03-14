@@ -4,7 +4,7 @@ html, body {
     background-color:darkslategrey;
     }
 #body {
-    background-image: url(img/sfondo.jpg);
+    background: url(img/sfondo.jpg);
     background-repeat: repeat;
     background-size: cover;
 }
