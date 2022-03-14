@@ -5,6 +5,8 @@ html, body {
     }
 #body {
     background-image: url(img/sfondo.jpg);
+    background-repeat: repeat;
+    background-size: cover;
 }
     #centrato {
     height:auto;
