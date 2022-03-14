@@ -3,6 +3,9 @@ html, body {
     padding:0px;
     background-color:darkslategrey;
     }
+#body {
+    background-image: url(img/sfondo.jpg);
+}
     #centrato {
     height:auto;
     width:1000px;
