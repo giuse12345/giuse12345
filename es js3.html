@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+ <html>
+  <head>
+      <title> es js3 </title>
+      <link rel="stylesheet" href="css/index.css" type="text/css"/>
+  </head>
+  <body>
+   <h1>Visualizzatore tabelline da 1 a 10</h1>
+   <button onclick="calcola()">Visualizza</button>
+   <h1 id="answer"></h1>
+   <script>
+    function calcola(){
+	 var risposta="";
+	 var contatore=1;
+	 while(contatore<=10){
+	  var x=new String(1*contatore+"  "+2*contatore+"  "+3*contatore+"  "+4*contatore+"  "+5*contatore+"  "+6*contatore+"  "+7*contatore+"  "+8*contatore+"  "+9*contatore+"  "+10*contatore);
+	  risposta=risposta+"Tabellina del "+contatore+": "+x+"<br>";
+	  contatore++;
+	 }
+	 document.getElementById("answer").innerHTML=risposta;
+	}
+   </script>
+  </body>
+ </html>
+
