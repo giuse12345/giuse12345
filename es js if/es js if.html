@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title> es js if </title>
+        <link rel="stylesheet" href="../css/index.css" type="text/css"/>
+        <script type="text/javascript">
+            function seMaggiore18(){
+                var n = document.getElementById('Num').value;
+                var image = document.getElementById('image');
+                if(n>18){
+                    image.src="luna1.jpg";
+                }
+                else{
+                    image.src="sole.jpg";
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <input type="text" name="text" id="Num">
+        <input type="button" name="button" value="verifica" onclick="seMaggiore18()"> <br> <br>
+        <img id="image">
+    </body>
+</html>
