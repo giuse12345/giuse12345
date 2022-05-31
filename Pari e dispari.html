@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <title> Pari e Dispari </title> 
+        <link rel="stylesheet" href="css/index.css" type="text/css"/>
+        <script type="text/javascript">
+            function sePariDispari(){
+                var n= document.getElementById("numero").value;
+                if(n%2==0){
+                    alert("0");
+                }
+                else{
+                    alert("1");
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <input type="text"  id="numero">
+        <input type="button" value="verifica" onclick="sePariDispari()">
+    </body>
+</html>
